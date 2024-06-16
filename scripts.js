@@ -1,3 +1,4 @@
+// JavaScript code for form submission
 document.getElementById('contactForm').addEventListener('submit', function(event) {
     event.preventDefault();
     

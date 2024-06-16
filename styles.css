@@ -1,91 +1,100 @@
+/* Global Styles */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
+    font-family: Arial, sans-serif; /* Set the default font family */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    line-height: 1.6; /* Set line height */
 }
 
+/* Header Styles */
 header {
-    background: #333;
-    color: #fff;
-    padding: 10px 0;
+    background: #333; /* Set background color */
+    color: #fff; /* Set text color */
+    padding: 10px 0; /* Add padding */
 }
 
+/* Navigation Styles */
 nav ul {
-    list-style: none;
-    padding: 0;
-    text-align: center;
+    list-style: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+    text-align: center; /* Center align navigation items */
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 10px;
+    display: inline; /* Display navigation items inline */
+    margin: 0 10px; /* Add spacing between navigation items */
 }
 
 nav ul li a {
-    color: #fff;
-    text-decoration: none;
+    color: #fff; /* Set link text color */
+    text-decoration: none; /* Remove default underline */
 }
 
+/* Main Section Styles */
 main {
-    padding: 20px;
-    text-align: center;
+    padding: 20px; /* Add padding */
+    text-align: center; /* Center align text */
 }
 
+/* Footer Styles */
 footer {
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    background: #333; /* Set background color */
+    color: #fff; /* Set text color */
+    text-align: center; /* Center align text */
+    padding: 10px 0; /* Add padding */
+    position: fixed; /* Fix footer position */
+    bottom: 0; /* Align to the bottom */
+    width: 100%; /* Set full width */
 }
 
+/* Form Styles */
 form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: flex; /* Use flexbox for form layout */
+    flex-direction: column; /* Arrange form elements in a column */
+    align-items: center; /* Center align form elements */
 }
 
 form label {
-    margin-top: 10px;
+    margin-top: 10px; /* Add top margin */
 }
 
 form input, form textarea {
-    width: 300px;
-    padding: 10px;
-    margin-top: 5px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    width: 300px; /* Set input width */
+    padding: 10px; /* Add padding */
+    margin-top: 5px; /* Add top margin */
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 5px; /* Add border radius */
 }
 
 form button {
-    margin-top: 10px;
-    padding: 10px 20px;
-    background: #333;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+    margin-top: 10px; /* Add top margin */
+    padding: 10px 20px; /* Add padding */
+    background: #333; /* Set background color */
+    color: #fff; /* Set text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border radius */
+    cursor: pointer; /* Change cursor on hover */
 }
 
 form button:hover {
-    background: #555;
+    background: #555; /* Change background color on hover */
 }
 
+/* Feedback Message Styles */
 #formFeedback {
-    margin-top: 20px;
-    color: green;
+    margin-top: 20px; /* Add top margin */
+    color: green; /* Set text color */
 }
 
+/* Section with Border Styles */
 .section-with-border {
-    border: 2px solid #ccc;
-    padding: 20px;
-    text-align: left;
+    border: 2px solid #ccc; /* Add border */
+    padding: 20px; /* Add padding */
+    text-align: left; /* Left align text */
 }
 
+/* Image within Section Styles */
 .section-with-border img {
-    float: left;
-    margin-right: 20px;
+    float: left; /* Float image to the left */
+    margin-right: 20px; /* Add right margin */
 }
